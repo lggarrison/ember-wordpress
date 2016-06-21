@@ -11,5 +11,6 @@ export default Model.extend({
 	name: attr('string'),
 	slug: attr('string'),
 	taxonomy: attr('string'),
-	parent: attr('number')
+	parent: attr('number'),
+	acf: attr()
 });
